@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+
+<body class="container" onload="main()">
+
+    <header>
+        <h1>Metric/Imperial Unit Convertor</h1>
+        <input oninput="enableConvertButton()" value="1" onkeypress="validate(event)" type="text" id="unit-input">
+        <button onclick="updateValues()" id="convert-button" >Convert</button>
+    </header>
+
+    <div class="main">
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
